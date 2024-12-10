@@ -10,7 +10,8 @@ namespace hazarfunction
         private readonly ILogger _logger;
 
         public Function1(ILoggerFactory loggerFactory)
-        {']'
+        {
+            ']'
             _logger = loggerFactory.CreateLogger<Function1>();
         }
 
